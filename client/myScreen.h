@@ -1,0 +1,43 @@
+#ifndef MYSCREEN_H
+#define MYSCREEN_H
+
+#include "QPoint"
+#include "QSize"
+
+enum STATUS{SELECT,MOV,SET_W_H};
+
+class myScreen
+{
+public:
+    myScreen(){}
+    myScreen(QSize size);
+
+    void setStart(QPoint pos);//????????????
+    void setEnd(QPoint pos);
+    
+    
+    QPoint getStart();
+    QPoint getEnd();
+
+    QPoint getLeftUp();
+    QPoint getRightDown();
+
+    STATUS getStatus();
+    void setStatus(STATUS st);
+
+    int width();
+    int height();
+    bool isInArea(QPoint pos); // ??pos????????
+    void move(QPoint p);         // ? p ??????
+
+private:
+    QPoint leftUpPos, rightDownPos;    // ?? ???? ???????
+    QPoint startPos, endPos;            //?? ???????????
+    int maxWidth, maxHeight;         //??????
+    // ???? :  ????????????width height
+    STATUS status;
+
+    void cmpPoint(QPoint &s, QPoint &e); // ??????????????
+};
+
+#endif // MYSCREEN_H

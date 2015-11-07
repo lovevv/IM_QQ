@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>chat_face</class>
+ <widget class="QWidget" name="chat_face">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>390</width>
+    <height>335</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QWidget" name="gridLayoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>381</width>
+     <height>341</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <item row="0" column="1">
+     <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="default_faces">
+       <attribute name="title">
+        <string>默认表情</string>
+       </attribute>
+       <widget class="QWidget" name="horizontalLayoutWidget">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>381</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout">
+         <item>
+          <widget class="myQLabel" name="label_8">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/8.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_7">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/7.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_6">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/6.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_5">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/5.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_4">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/4.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_3">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/3.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_2">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/2.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/1.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="horizontalLayoutWidget_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>30</y>
+          <width>381</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_2">
+         <item>
+          <widget class="myQLabel" name="label_11">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/11.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_16">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/16.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_15">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/15.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_14">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/14.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_13">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/13.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_12">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/12.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_10">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/10.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_9">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/9.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="horizontalLayoutWidget_3">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>60</y>
+          <width>381</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_3">
+         <item>
+          <widget class="myQLabel" name="label_20">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/20.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_22">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/22.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_24">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/24.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_23">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/23.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_21">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/21.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_19">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/19.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_18">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/18.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_17">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/17.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="horizontalLayoutWidget_4">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>90</y>
+          <width>381</width>
+          <height>37</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_4">
+         <item>
+          <widget class="myQLabel" name="label_27">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/27.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_32">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/32.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_31">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/31.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_30">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/30.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_29">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/29.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_28">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/28.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_26">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/26.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_25">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/25.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="horizontalLayoutWidget_5">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>120</y>
+          <width>381</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_5">
+         <item>
+          <widget class="myQLabel" name="label_36">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/36.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_40">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/40.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_39">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/39.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_38">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/38.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_37">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/37.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_35">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/35.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_34">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/34.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_33">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/33.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="horizontalLayoutWidget_6">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>150</y>
+          <width>381</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_6">
+         <item>
+          <widget class="myQLabel" name="label_48">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/48.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_45">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/45.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_47">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/47.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_46">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/46.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_44">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/44.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_42">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/42.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_41">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/41.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_43">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/43.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="horizontalLayoutWidget_7">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>180</y>
+          <width>381</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_7">
+         <item>
+          <widget class="myQLabel" name="label_56">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/56.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_55">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/55.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_54">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/54.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_53">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/53.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_52">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/52.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_51">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/51.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_50">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/50.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_49">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/49.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="horizontalLayoutWidget_8">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>210</y>
+          <width>381</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_8">
+         <item>
+          <widget class="myQLabel" name="label_60">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/60.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_64">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/64.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_63">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/63.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_62">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/62.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_61">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/61.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_59">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/59.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_58">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/58.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_57">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/57.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="horizontalLayoutWidget_9">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>240</y>
+          <width>381</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_9">
+         <item>
+          <widget class="myQLabel" name="label_72">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/72.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_71">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/71.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_70">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/70.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_67">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/67.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_69">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/69.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_68">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/68.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_65">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/65.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_66">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/66.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+       <widget class="QWidget" name="horizontalLayoutWidget_10">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>270</y>
+          <width>381</width>
+          <height>31</height>
+         </rect>
+        </property>
+        <layout class="QHBoxLayout" name="horizontalLayout_10">
+         <item>
+          <widget class="myQLabel" name="label_77">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/77.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_80">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/80.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_79">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/79.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_78">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/78.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_75">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/75.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_76">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/76.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_74">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/74.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+         <item>
+          <widget class="myQLabel" name="label_73">
+           <property name="text">
+            <string/>
+           </property>
+           <property name="pixmap">
+            <pixmap resource="image_resouce.qrc">:/imqface/73.gif</pixmap>
+           </property>
+          </widget>
+         </item>
+        </layout>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="sdefine_faces">
+       <attribute name="title">
+        <string>自定义</string>
+       </attribute>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>myQLabel</class>
+   <extends>QLabel</extends>
+   <header>myQlable.h</header>
+  </customwidget>
+ </customwidgets>
+ <resources>
+  <include location="image_resouce.qrc"/>
+ </resources>
+ <connections/>
+</ui>
